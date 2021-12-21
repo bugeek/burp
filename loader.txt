@@ -1,0 +1,1 @@
+java -noverify -javaagent:/home/{username}/burp/burploader.jar -jar --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED  /home/{username}/burp/{file_name}
